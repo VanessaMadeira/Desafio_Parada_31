@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Festa Junina</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.bundle.min.js" defer></script>
+        <link rel="shortcut icon" href="img/favicon.avif" type="image/x-icon">
+        <Style>
+             body{
+                background-color: #fad59e;
+            }
+            
+            #carrossel{    
+                margin:auto;
+                width: 600px;
+            }
+
+            .img-fluid{
+                margin:auto;
+                width: 400px;
+            }
+
+            .container{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .card{
+                margin: 10px;
+                width: 16rem;
+                text-align: justify;
+            }
+
+            .containerform{
+                margin: auto;
+                width: 450px;
+                background-color: #d6d6d6;
+                padding: 15px;
+                border-radius: 5px;
+
+            }
+
+        </Style>
+    </head>
+
+    <body>
+        
+        <header class="bg-dark text-light text-center py-5">
+            <h1>Festa Junina</h1>
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                
+                <a href="#" class="navbar-brand">Logo</a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">Início</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Sobre</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+
+        <div id="carrossel" class="carousel slide">
+          
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div> 
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/img01.jpg" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/bolo de milho.jpg" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/img03.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>  
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carrossel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            
+        </div>
+
+        <br>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Milho Cozido</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam incidunt temporibus, ipsam accusantium quod quas sed nihil asperiores blanditiis et unde eum iste ad harum excepturi nulla nisi. At, nostrum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui similique, voluptatum reprehenderit suscipit quis, dolore exercitationem nesciunt vitae et ipsa asperiores ut illum? Nostrum dicta molestiae beatae quas fugit.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="img/img04.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Milho na Brasa</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam incidunt temporibus, ipsam accusantium quod quas sed nihil asperiores blanditiis et unde eum iste ad harum excepturi nulla nisi. At, nostrum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui similique, voluptatum reprehenderit suscipit quis, dolore exercitationem nesciunt vitae et ipsa asperiores ut illum? Nostrum dicta molestiae beatae quas fugit.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="img/milho na brasa.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+       
+        <div class="container">
+            <div class="card" >
+                <img src="img/canjica.jpg" class="card-img-top">
+
+                <div class="card-body">
+                    <h5 class="card-title">Canjica</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum eos fugit laboriosam unde maiores repellat deleniti corporis atque! Laudantium, obcaecati! Eos, laboriosam enim pariatur nostrum porro facere tenetur.</p>
+                    <a href="#" class="btn btn-secondary">Veja mais</a>            
+                </div>
+            </div>
+
+            <div class="card" >
+                <img src="img/curau.jpg" class="card-img-top">
+
+                <div class="card-body">
+                    <h5 class="card-title">Curau</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum eos fugit laboriosam unde maiores repellat deleniti corporis atque! Laudantium, obcaecati! Eos, laboriosam enim pariatur nostrum porro facere tenetur.</p>
+                    <a href="#" class="btn btn-secondary">Veja mais</a>            
+                </div>
+            </div>
+
+            <div class="card" >
+                <img src="img/doce de abobora.jpg" class="card-img-top">
+
+                <div class="card-body">
+                    <h5 class="card-title">Doce de Abóbora</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum eos fugit laboriosam unde maiores repellat deleniti corporis atque! Laudantium, obcaecati! Eos, laboriosam enim pariatur nostrum porro facere tenetur.</p>
+                    <a href="#" class="btn btn-secondary">Veja mais</a>            
+                </div>
+            </div>
+
+            <div class="card" >
+                <img src="img/pé de moleque.jpg" class="card-img-top">
+
+                <div class="card-body">
+                    <h5 class="card-title">Pé de moleque</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum eos fugit laboriosam unde maiores repellat deleniti corporis atque! Laudantium, obcaecati! Eos, laboriosam enim pariatur nostrum porro facere tenetur.</p>
+                    <a href="#" class="btn btn-secondary">Veja mais</a>            
+                </div>
+            </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="containerform">
+
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="f_email" placeholder="nome@email.com">
+            <label for="f_email">E-mail</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="f_senha" placeholder="Senha">
+            <label for="f_senha">Senha</label>
+        </div>
+
+   </div>
+
+        <footer class="bg-dark  text-light text-center py-3 mt-5">
+            <p>&copy; Desenvolvido por Vanessa Madeira - 2023</p>
+        </footer>
+
+    </body>
+
+</html>
